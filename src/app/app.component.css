@@ -1,0 +1,85 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+.block1 {
+  padding: 20px;
+  background-color: #d0dde0;
+  text-align: center;
+  color: black;
+
+}
+
+.block2 {
+  background-color: #9ba6a8;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  min-height: 330px;
+}
+
+.block3 {
+  padding: 20px;
+  background-color: #d0dde0;
+  text-align: center;
+  color: black;
+  height: 60px;
+}
+
+.inner {
+  padding: 20px;
+  text-align: center;
+}
+
+.input {
+  width: 50px;
+  border-radius: 5px;
+  border: solid #000000;
+}
+
+button {
+  width: 70px;
+  border: solid #000000;
+  border-radius: 5px;
+}
+
+table {
+  text-align: center;
+  border-radius: 5px;
+  border: solid #000000;
+  margin: auto;
+  background-color: white;
+}
+
+th {
+  font-size: 25px;
+  padding: 10px;
+}
+
+/*td {
+  font-size: 20px;
+  width: 120px;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background: #b3c5cc;
+}
+
+tr:nth-child(odd) {
+  background: #8ab0bd;
+}*/
+
+input.ng-touched.ng-invalid {
+  border: solid red 2px;
+}
+
+input.ng-touched.ng-valid {
+  border: solid green 2px;
+}
+.highlight {
+  background-color: yellow;
+  font-weight: 600;
+}
